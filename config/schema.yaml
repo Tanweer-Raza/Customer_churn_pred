@@ -1,0 +1,69 @@
+target_column:
+  - Customer Status
+columns:
+  - Age: int64
+  - Married: object
+  - Offer: object
+  - Phone Service: object
+  - Avg Monthly Long Distance Charges: float64
+  - Multiple Lines: object
+  - Internet Type: object
+  - Avg Monthly GB Download: float64
+  - Online Security: object
+  - Online Backup: object
+  - Device Protection Plan: object
+  - Premium Tech Support: object
+  - Streaming TV: object
+  - Streaming Movies: object
+  - Streaming Music:  object
+  - Contract: object
+  - Paperless Billing: object
+  - Payment Method: object
+  - Monthly Charge: float64
+  - Total Charges: float64
+  - Total Long Distance Charges: float64
+  - Customer Status: object
+
+numeric_columns:
+  - Age
+  - Avg Monthly Long Distance Charges
+  - Avg Monthly GB Download
+  - Monthly Charge
+  - Total Charges
+  - Total Long Distance Charges
+
+categorical_columns:
+  - Married
+  - Offer
+  - Phone Service
+  - Multiple Lines
+  - Internet Type
+  - Online Security
+  - Online Backup
+  - Device Protection Plan
+  - Premium Tech Support
+  - Streaming TV
+  - Streaming Movies
+  - Streaming Music
+  - Contract
+  - Paperless Billing
+  - Payment Method
+  - Customer Status
+
+drop_columns:
+  - Tenure in Months
+  - Number of Dependents
+  - Internet Service
+  - Number of Referrals
+  - City
+  - Unlimited Data
+  - Churn Reason
+  - Zip Code
+  - Total Refunds
+  - Latitude
+  - Longitude
+  - Churn Category
+  - Customer ID
+  - Gender
+  - Total Extra Data Charges
+  - Total Revenue
